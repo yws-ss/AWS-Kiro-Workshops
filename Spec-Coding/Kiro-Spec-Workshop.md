@@ -196,13 +196,13 @@ For more AWS provided MCP, please refer this [document](https://awslabs.github.i
 
 Agent Hooks are powerful automation tools that streamline your development workflow by automatically executing predefined agent actions when specific events occur in your IDE. With hooks, you eliminate the need to manually request routine tasks and ensure consistency across your codebase.
 
-#### 4.1 Click "+" on AGENT HOOKS to add new hooks
+#### 5.1 Click "+" on AGENT HOOKS to add new hooks
 
 
 <img width="393" height="731" alt="image" src="https://github.com/user-attachments/assets/22af98c2-f7e8-470c-9cf6-ec695a711f30" />
 
 
-#### 4.2 Describe the hook using natural language
+#### 5.2 Describe the hook using natural language
 
 We want agent hooks to help us monitoring the CDK resource files change, and keep generating the AWS service diagram by using AWS Diagram MCP Server.
 
@@ -215,7 +215,7 @@ After the hook create complete and CDK resource files have change, you should se
 <img width="1620" height="2106" alt="image" src="https://github.com/user-attachments/assets/0d9e81dc-0ffd-4837-b768-7a852290538c" />
 
 
-##  🚀 Exercise 5 - Create a new Spec for AWS enviroment deployment 
+##  🚀 Exercise 6 - Create a new Spec for AWS enviroment deployment 
 
 ```
 I have a web-based shooting application need to deploy to AWS Cloud. Create a comprehensive AWS architecture with following high-level requirements:
@@ -225,7 +225,7 @@ I have a web-based shooting application need to deploy to AWS Cloud. Create a co
 4) Since we are in demo, please do not add any new feature for the game.
 ```
 
-## 🚀 Exercise 6 -  Cleanup and Resource Management
+## 🚀 Exercise 7 -  Cleanup and Resource Management
 
 ```
 Create and execute cleanup procedures:
