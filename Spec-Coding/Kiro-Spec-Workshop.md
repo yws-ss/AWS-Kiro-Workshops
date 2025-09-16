@@ -20,15 +20,12 @@ Create a folder named `MyShootingGame` and open it in Kiro. Instead of starting 
 
 **Login to Kiro**
 
-- Enter the Start URL use following ``https://d-9066223a3e.awsapps.com/start/`` 
-- Enter the region `` us-east-1``
-- Enter the username / password provide onsite
 
 <img width="200" height="300" alt="Screenshot 2025-09-03 at 8 53 09 AM" src="https://github.com/user-attachments/assets/6b66ab52-e5ac-48e4-940f-e550e72aee10" />
 
 
 **Logout Kiro** 
-*(please logout after the event)*
+
 - Click account information from the left down corner 
 <img width="351" height="169" alt="Screenshot 2025-09-03 at 9 04 27 AM" src="https://github.com/user-attachments/assets/a004b61d-efcf-4159-bd1f-3d578db137e4" />
 
