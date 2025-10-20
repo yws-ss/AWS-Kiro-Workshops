@@ -227,23 +227,7 @@ Through this experiment, you will experience firsthand how Kiro makes complex cl
 
 ## 🛠️ Experiment Content
 
-### Experiment 1: Kiro Getting Started Experience - Intelligent Chatbot
-
-Experience Kiro's basic AI development capabilities by building an AWS Bedrock chatbot:
-
-🎯 **Experiment Focus**:
-- **Conversational Development**: Learn how to communicate with Kiro in natural language
-- **Rapid Prototyping**: Build a complete chatbot UI in 30 minutes
-- **AWS Integration**: Automatically generate S3 + CloudFront deployment architecture
-- **Security Best Practices**: Implement AWS security configuration and permission management
-
-🚀 **You Will Build**:
-- Modern chat interface with Chinese and English support
-- Secure AWS cloud hosting environment
-- Responsive design supporting multiple devices
-- Architecture design reserved for future API integration
-
-### Experiment 2: Advanced Application Development - Web Shooting Game
+### Experiment : Advanced Application Development - Web Shooting Game
 
 Challenge Kiro's advanced development capabilities by building a fully functional interactive game:
 
