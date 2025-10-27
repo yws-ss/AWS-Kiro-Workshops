@@ -179,7 +179,7 @@ Model Context Protocol (MCP) extends Kiro's capabilities by connecting to specia
 }
 ```
 
-### :toolbox: Kiro Dev Servers
+### 🔲 Kiro Dev Servers
 
 **Kiro manages long-running processes (dev servers, build watchers, test runners) in the background so you can stay focused on coding without juggling terminal windows**
 
