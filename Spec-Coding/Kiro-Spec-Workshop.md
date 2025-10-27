@@ -94,6 +94,9 @@ After making code changes:
 1. Always check the output of the `python3 -m http.server` process
 2. Look for compilation errors or warnings
 3. If errors exist, suggest fixes before proceeding
+
+<img width="708" height="368" alt="image" src="https://github.com/user-attachments/assets/706bd9dd-2917-4db3-bc94-d9dae400ec92" />
+
 ```
 
 ##  🚀 Exercise 3 - Start a dev server and try it out 
