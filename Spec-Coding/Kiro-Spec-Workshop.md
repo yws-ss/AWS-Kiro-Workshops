@@ -97,7 +97,8 @@ After making code changes:
 
 ```
 
-<img width="708" height="368" alt="image" src="https://github.com/user-attachments/assets/706bd9dd-2917-4db3-bc94-d9dae400ec92" />
+<img width="556" height="385" alt="image" src="https://github.com/user-attachments/assets/94a6d005-eb3f-44f1-9658-a527f3756786" />
+
 
 ##  🚀 Exercise 3 - Start a dev server and try it out 
 
