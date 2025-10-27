@@ -62,7 +62,7 @@ Create a folder named `MyShootingGame` and open it in Kiro. Instead of starting 
 
 ```
 
-Please help me to build a web-base shooting game and deploy to local
+ Please help me to build a Halloween themed web-based shooting game
 
 ```
 
@@ -85,7 +85,25 @@ Steering gives Kiro persistent knowledge about your project through markdown fil
 <img width="908" height="669" alt="image" src="https://github.com/user-attachments/assets/1ab7adb6-1f59-4a2d-ba03-fef8ea563160" />
 
 
-##  🚀 Exercise 3 - Use Specs coding for more comprehensive implementation 
+### 2.3 Add following Development Workflow into tech.md 
+
+```
+# Development Workflow
+
+After making code changes:
+1. Always check the output of the `python3 -m http.server` process
+2. Look for compilation errors or warnings
+3. If errors exist, suggest fixes before proceeding
+```
+
+##  🚀 Exercise 3 - Start a dev server and try it out 
+
+
+```
+Start the development server
+```
+
+##  🚀 Exercise 4 - Use Specs coding for more comprehensive implementation 
 
 ```
 
@@ -98,24 +116,24 @@ Create a more comprehensive modern web-based shooting application with following
 
 ```
 
-#### 3.1 Review the Requirements ( requirements.md ) provide by Kiro 
+#### 4.1 Review the Requirements ( requirements.md ) provide by Kiro 
 
 <img width="731" height="630" alt="image" src="https://github.com/user-attachments/assets/b024f8a0-5387-44a3-a9d8-b55adbf6362d" />
 
-#### 3.2 Move to Design phase and review design ( design.md )
+#### 4.2 Move to Design phase and review design ( design.md )
 <img width="635" height="434" alt="image" src="https://github.com/user-attachments/assets/87efa607-f6d5-4113-9102-037855d1dc6b" />
 
 
-#### 3.3 Start implementation plan , review the Tasklist ( tasks.md )
+#### 4.3 Start implementation plan , review the Tasklist ( tasks.md )
 <img width="611" height="418" alt="image" src="https://github.com/user-attachments/assets/e2446220-7e17-4e67-a53c-f182cf0f11aa" />
 
 
-#### 3.4 Start Task by click the :zap:
+#### 4.4 Start Task by click the :zap:
 
 <img width="568" height="332" alt="image" src="https://github.com/user-attachments/assets/3a3f912d-fe8d-4e63-b7d1-5ff21de23e4e" />
 
 
-##  🚀 Exercise 4 - Add MCP server in Kiro 
+##  🚀 Exercise 5 - Add MCP server in Kiro 
 
 Model Context Protocol (MCP) extends Kiro's capabilities by connecting to specialized servers that provide additional tools and context. This guide helps you set up, configure, and use MCP servers with Kiro.
 
@@ -127,12 +145,12 @@ $ uv self version
 ```
 > If you didn't install it yet, please check [Astral](https://docs.astral.sh/uv/getting-started/installation) to install uv command.
 
-#### 4.1 Click Enable MCP
+#### 5.1 Click Enable MCP
 
 <img width="368" height="268" alt="image" src="https://github.com/user-attachments/assets/0906b563-d0bf-4102-a0f8-332c7d277f97" />
 
 
-#### 4.2 Modify the mcp.json file to add the MCP server
+#### 5.2 Modify the mcp.json file to add the MCP server
 
 In this workshop, we will add: 
 - **AWS Documentation MCP Server**: This MCP server provides tools to access AWS documentation, search for content, and get recommendations.
@@ -189,17 +207,17 @@ For more AWS provided MCP, please refer this [document](https://awslabs.github.i
 
 ```
 
-##  🚀 Exercise 5 - Add Hooks in Kiro 
+##  🚀 Exercise 6 - Add Hooks in Kiro 
 
 Agent Hooks are powerful automation tools that streamline your development workflow by automatically executing predefined agent actions when specific events occur in your IDE. With hooks, you eliminate the need to manually request routine tasks and ensure consistency across your codebase.
 
-#### 5.1 Click "+" on AGENT HOOKS to add new hooks
+#### 6.1 Click "+" on AGENT HOOKS to add new hooks
 
 
 <img width="393" height="731" alt="image" src="https://github.com/user-attachments/assets/22af98c2-f7e8-470c-9cf6-ec695a711f30" />
 
 
-#### 5.2 Describe the hook using natural language
+#### 6.2 Describe the hook using natural language
 
 We want agent hooks to help us monitoring the CDK resource files change, and keep generating the AWS service diagram by using AWS Diagram MCP Server.
 
@@ -212,7 +230,7 @@ After the hook create complete and CDK resource files have change, you should se
 <img width="1620" height="2106" alt="image" src="https://github.com/user-attachments/assets/0d9e81dc-0ffd-4837-b768-7a852290538c" />
 
 
-##  🚀 Exercise 6 - Create a new Spec for AWS enviroment deployment 
+##  🚀 Exercise 7 - Create a new Spec for AWS enviroment deployment 
 
 ```
 I have a web-based shooting application need to deploy to AWS Cloud. Create a comprehensive AWS architecture with following high-level requirements:
@@ -222,7 +240,7 @@ I have a web-based shooting application need to deploy to AWS Cloud. Create a co
 4) Since we are in demo, please do not add any new feature for the game.
 ```
 
-## 🚀 Exercise 7 -  Cleanup and Resource Management
+## 🚀 Exercise 8 -  Cleanup and Resource Management
 
 ```
 Create and execute cleanup procedures:
