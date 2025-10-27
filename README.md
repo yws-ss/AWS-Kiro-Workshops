@@ -179,7 +179,7 @@ Model Context Protocol (MCP) extends Kiro's capabilities by connecting to specia
 }
 ```
 
-###    Kiro Dev Servers
+### :toolbox: Kiro Dev Servers
 
 **Kiro manages long-running processes (dev servers, build watchers, test runners) in the background so you can stay focused on coding without juggling terminal windows**
 
@@ -191,7 +191,6 @@ Model Context Protocol (MCP) extends Kiro's capabilities by connecting to specia
 - **Dual validation**: Combine with code diagnostics for complete error coverage
 
 #### Basic Commands
-
 **Starting Processes**
 - "Start the development server"
 - "Run npm run watch"
@@ -205,11 +204,6 @@ Model Context Protocol (MCP) extends Kiro's capabilities by connecting to specia
 **Stopping**
 - "Stop the development server"
 - "Kill all background processes"
-
-**Troubleshooting Support:**
-- **MCP Logs**: Dedicated log output in Kiro panel for debugging connection issues
-- **Connection Status**: Visual indicators showing server health and availability
-- **Error Handling**: Clear error messages and solutions for common configuration problems
 
 ### 🚀 The Kiro Advantage: Putting It All Together
 
