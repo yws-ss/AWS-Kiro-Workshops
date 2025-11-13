@@ -60,13 +60,19 @@ Please help me to build a web-based shooting game use keyboard control, includin
 
 ```
 
-e-commerce website 
+E-commerce website 
 ```
  Please help me to build a simple e-commerce website with three web pages, including Home page, Product page and Shopping Cart page
 
 ```
+##  🚀 Exercise 2 - Start a dev server and try it out 
 
-##  🚀 Exercise 2 - Generate Steering document in Kiro 
+```
+Start the development server
+```
+
+
+##  🚀 Exercise 3 - Generate Steering document in Kiro 
 
 Steering gives Kiro persistent knowledge about your project through markdown files in .kiro/steering/. Instead of explaining your conventions in every chat, steering files ensure Kiro consistently follows your established patterns, libraries, and standards.
 
@@ -85,27 +91,141 @@ Steering gives Kiro persistent knowledge about your project through markdown fil
 <img width="908" height="669" alt="image" src="https://github.com/user-attachments/assets/1ab7adb6-1f59-4a2d-ba03-fef8ea563160" />
 
 
-### 2.3 Add following Development Workflow into tech.md 
+##  🚀 Exercise 4 - Enable / Add MCP server in Kiro 
+
+Model Context Protocol (MCP) extends Kiro's capabilities by connecting to specialized servers that provide additional tools and context. This guide helps you set up, configure, and use MCP servers with Kiro.
+
+> :warning:
+> Before you start this exercise, please make sure you have install the uv command in your environment. To check the uv command whether has been installed, you could use following commnad:
 
 ```
-# Development Workflow
+$ uv self version
+```
+> If you didn't install it yet, please check [Astral](https://docs.astral.sh/uv/getting-started/installation) to install uv command.
 
-After making code changes:
-1. Always check the output of the `python3 -m http.server` process
-2. Look for compilation errors or warnings
-3. If errors exist, suggest fixes before proceeding
+
+#### 3.1 Click Enable / add more MCP server ( https://kiro.dev/docs/mcp/servers/ )
+
+<img width="368" height="268" alt="image" src="https://github.com/user-attachments/assets/0906b563-d0bf-4102-a0f8-332c7d277f97" />
+
+```
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ],
+      "disabled": false
+    },
+    "Context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp",
+        "--api-key",
+        "ctx7sk-56e70384-f5df-4574-90d2-71ee8893b280"
+      ],
+      "env": {},
+      "disabled": false,
+      "autoApprove": []
+    },
+    "web-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@brave/brave-search-mcp-server",
+        "--transport",
+        "stdio"
+      ],
+      "env": {
+        "BRAVE_API_KEY": "your-api-key"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "aws-docs": {
+      "command": "uvx",
+      "args": [
+        "awslabs.aws-documentation-mcp-server@latest"
+      ],
+      "env": {
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
+
+```
+
+## 🚀 Exercise 5 - Create your own Steering rule 
+
+### 5.1 Add your Development standards into development-standards.md ( reference : https://github.com/awsdataarchitect/kiro-best-practices/blob/main/.kiro/steering/development-standards.md )
+
+<img width="731" height="237" alt="image" src="https://github.com/user-attachments/assets/3988dbdf-0be4-4e72-816b-4cbb5dcec145" />
+
+```
+---
+inclusion: always
+---
+
+# Development Standards
+
+## Dependency Management
+- Use latest stable versions of all libraries and dependencies
+- Leverage Context7 MCP server to verify compatibility before adding dependencies
+- Justify each new dependency with clear business or technical value
+- Prefer well-maintained libraries with active communities
+- Document version constraints in project files
+- Remove unused dependencies regularly
+- Use lock files to ensure consistent installations across environments
+
+## Code Quality Standards
+- Never create duplicate files with suffixes like `_fixed`, `_clean`, `_backup`, etc.
+- Work iteratively on existing files (hooks handle commits automatically)
+- Include relevant documentation links in code comments
+- Follow language-specific conventions (TypeScript for CDK, Python for Lambda)
+- Use meaningful variable and function names
+- Keep functions small and focused on single responsibilities
+- Implement proper error handling and logging
+
+## File Management
+- Maintain clean directory structures
+- Use consistent naming conventions across the project
+- Avoid temporary or backup files in version control
+- Organize code logically by feature or domain
+- Keep configuration files at appropriate levels (project vs user)
+
+## Documentation Approach
+- Maintain single comprehensive README covering all aspects including deployment
+- Reference official sources through MCP servers when available
+- Update documentation when upgrading dependencies
+- Keep documentation close to relevant code
+- Use inline comments for complex business logic
+- Document API endpoints and data structures
+- Include setup and deployment instructions
+
+## Version Control Integration
+- Commit frequently with meaningful messages
+- Use feature branches for development
+- Keep main branch deployable at all times
+- Tag releases appropriately
+- Use .gitignore to exclude generated files and secrets
+
+## Quality Assurance
+- Write tests for new functionality
+- Run tests before committing changes
+- Use linting and formatting tools consistently
+- Perform code reviews for all changes
+- Monitor code coverage and maintain high standards
 
 ```
 
 <img width="544" height="443" alt="Screenshot 2025-10-27 at 2 41 49 PM" src="https://github.com/user-attachments/assets/45dd8ac1-5edd-4c9e-93b5-0e55df1fa662" />
 
-
-##  🚀 Exercise 3 - Start a dev server and try it out 
-
-
-```
-Start the development server
-```
 
 ##  🚀 Exercise 4 - Use Specs coding for more comprehensive implementation 
 
@@ -138,21 +258,7 @@ Create a more comprehensive modern web-based shooting application with following
 <img width="568" height="332" alt="image" src="https://github.com/user-attachments/assets/3a3f912d-fe8d-4e63-b7d1-5ff21de23e4e" />
 
 
-##  🚀 Exercise 5 - Add MCP server in Kiro 
 
-Model Context Protocol (MCP) extends Kiro's capabilities by connecting to specialized servers that provide additional tools and context. This guide helps you set up, configure, and use MCP servers with Kiro.
-
-> :warning:
-> Before you start this exercise, please make sure you have install the uv command in your environment. To check the uv command whether has been installed, you could use following commnad:
-
-```
-$ uv self version
-```
-> If you didn't install it yet, please check [Astral](https://docs.astral.sh/uv/getting-started/installation) to install uv command.
-
-#### 5.1 Click Enable MCP
-
-<img width="368" height="268" alt="image" src="https://github.com/user-attachments/assets/0906b563-d0bf-4102-a0f8-332c7d277f97" />
 
 
 #### 5.2 Modify the mcp.json file to add the MCP server
