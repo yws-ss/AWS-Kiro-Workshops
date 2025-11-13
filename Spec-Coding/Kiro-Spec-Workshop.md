@@ -52,14 +52,15 @@ This is a fully hands-on workshop. Through a series of exercises, you will desig
 
 <img width="472" height="360" alt="image" src="https://github.com/user-attachments/assets/7a6f1648-f717-4e44-a29a-189d096a70d3" />
 
-##  🚀 Exercise 1 - Use Vibe Coding to create a simple Web base shooting game OR a e-commerce website 
+##  🚀 Exercise 1 - Use Vibe Coding to create a Web base shooting game OR a e-commerce website 
 
+Web base shooting game
 ```
 Please help me to build a web-based shooting game use keyboard control, including a quick instruction page
 
 ```
 
-
+e-commerce website 
 ```
  Please help me to build a simple e-commerce website with three web pages, including Home page, Product page and Shopping Cart page
 
