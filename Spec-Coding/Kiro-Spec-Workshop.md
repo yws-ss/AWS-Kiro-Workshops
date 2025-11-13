@@ -176,7 +176,7 @@ you can easily add MCP server via Kiro public [documentation](https://awslabs.gi
 
 #### You can find more best practices from [here](https://github.com/awsdataarchitect/kiro-best-practices/tree/main/.kiro/steering)
 
-Create development-standards.md in steering and add following contexts 
+Create development-standards.md in global agent steering with following contexts 
 
 
 ```
@@ -235,8 +235,6 @@ inclusion: always
 - Monitor code coverage and maintain high standards
 
 ```
-
-
 
 ##  🚀 Exercise 6 - Use Specs coding for more comprehensive implementation 
 
@@ -385,7 +383,66 @@ After the hook create complete and CDK resource files have change, you should se
 <img width="1620" height="2106" alt="image" src="https://github.com/user-attachments/assets/0d9e81dc-0ffd-4837-b768-7a852290538c" />
 
 
-##  🚀 Exercise 7 - Create a new Spec for AWS enviroment deployment 
+
+##  🚀 Exercise 7 - Add a CDK Steering in workspace steering
+
+Create CDK_Best_Practices.md in steering with following contexts 
+
+```
+---
+inclusion: always
+---
+
+
+# CDK Best Practices
+
+## Basics
+- Use projen for project initialization and file management
+- Use the latest version of the CDK, found here: https://github.com/aws/aws-cdk/releases
+- Use cdk-iam-floyd for IAM policy generation
+- Additional CDK apps should have a projen task with a prefix `cdk:`. E.g. `cdk:iam-roles`
+
+## Structure
+- All files in the `src/**` directory
+- Applications in the `src/` directory
+- Stacks in the `src/stacks/**` directory
+- Constructs in the `src/constructs/**` directory
+- Stages in the `src/stages/**` directory
+- Lambda function handlers in a sub-directory of the defining construct, called `handler`
+- Pascal-casing for filenames (e.g. `SomeConstruct.ts`)
+- Each custom construct should reside in its own file named the same as the construct
+
+## Apps
+- SHOULD contain distinct stack/stage instances for each environment
+- SHOULD provide each stack/stage with account/region specific values
+- Context SHOULD NOT be used for anything, at all
+
+## Stacks
+- SHOULD be responsible for importing resources (`Vpc.fromLookup()`, `Bucket.fromBucketName()`, etc.)
+- SHOULD be responsible for instantiating constructs
+
+## Constructs
+- SHOULD save the incoming constructor props as a private field
+- SHOULD create all resources in protected methods, not in the constructor
+- SHOULD NOT import resources (e.g. `Vpc.fromLookup()`)
+- SHOULD be passed concrete objects representing resources
+- Properties representing resource identifiers should use template literal types (e.g. `vpc-${string}`)
+
+## Tests
+- All tests in the `test/` directory
+- Tests should match construct names (e.g. `SomeConstruct.test.ts`)
+- Use fine-grained assertions for constructs
+- Use snapshot tests for stacks
+- Mock `Code.fromAsset` and `ContainerImage.fromAsset` calls
+
+## Lambda Functions
+- Use `NodejsFunction` or `PythonFunction` whenever possible
+
+```
+
+##  🚀 Exercise 8 - Create a new Spec for AWS enviroment deployment 
+
+web-base shooting game 
 
 ```
 I have a web-based shooting application need to deploy to AWS Cloud. Create a comprehensive AWS architecture with following high-level requirements:
@@ -395,7 +452,16 @@ I have a web-based shooting application need to deploy to AWS Cloud. Create a co
 4) Since we are in demo, please do not add any new feature for the game.
 ```
 
-## 🚀 Exercise 8 -  Cleanup and Resource Management
+E-commerce website 
+```
+I have a E-commerce website need to deploy to AWS Cloud. Create a comprehensive AWS architecture with following high-level requirements:
+1) Use Cloudfront + S3 for frontend, ALB + ECS fargate for backend and RDS SQL server for my database
+2) Follow each service's configuration best practice
+3) Prefer to use Infrasturce as Code solution to deploy, such as AWS CDK.
+4) Since we are in demo, please do not add any new feature for the application.
+```
+
+## 🚀 Exercise 9 -  Cleanup and Resource Management
 
 ```
 Create and execute cleanup procedures:
@@ -407,34 +473,5 @@ Create and execute cleanup procedures:
 - Create re-deployment procedures for future use
 ```
 
-**Expected Outcome**
-Kiro will generate will create cleanup scripts (using AWS CDK, CloudFormation, or AWS CLI) to systematically remove these resources in the correct order to avoid dependency issues. The implementation will include verification steps to ensure all resources are properly deleted and documentation for any data that should be backed up before cleanup. Finally, Kiro will provide instructions for re-deploying the application in the future if needed.
-
-After completing this exercise, you'll have successfully cleaned up all AWS resources used by your chatbot application, preventing any unexpected charges. You'll also have documentation and scripts that make it easy to redeploy the application in the future if desired.
-
-
-## Comparing Spec vs Vibe Coding
-
-After completing all exercises in this workshop, take some time to reflect on the differences between spec and vibe coding approaches:
-
-### Advantages of Spec Coding:
-
-* Better documentation and maintainability
-* More predictable development process
-* Easier to review and validate requirements
-* Better suited for complex, enterprise applications
-* Facilitates team collaboration and knowledge sharing
-
-### When to Use Each Approach:
-
-* Use Spec Coding for: Complex applications, team projects, enterprise software, long-term maintenance
-* Use Vibe Coding for: Prototypes, simple applications, exploratory development, quick iterations
-
-### Final Remarks
-Spec coding with Kiro provides a more structured approach to AI-assisted development. While it requires more upfront planning, it results in better-documented, more maintainable, and more predictable software development processes.
-
-The specifications you create become living documents that can be updated and refined as requirements change, making your development process more agile and responsive to changing needs. Consider using spec coding for your next complex project where documentation, maintainability, and team collaboration are important factors.
-
-### Survey 
 
 
