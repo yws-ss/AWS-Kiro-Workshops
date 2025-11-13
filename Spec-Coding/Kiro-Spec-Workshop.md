@@ -174,7 +174,6 @@ you can easily add MCP server via Kiro public [documentation](https://awslabs.gi
 <img width="908" height="669" alt="image" src="https://github.com/user-attachments/assets/3988dbdf-0be4-4e72-816b-4cbb5dcec145" />
 
 
-#### You can find more best practices from [here](https://github.com/awsdataarchitect/kiro-best-practices/tree/main/.kiro/steering)
 
 Create development-standards.md in global agent steering with following contexts 
 
@@ -439,6 +438,8 @@ inclusion: always
 - Use `NodejsFunction` or `PythonFunction` whenever possible
 
 ```
+
+#### You can find more best practices from [here](https://github.com/awsdataarchitect/kiro-best-practices/tree/main/.kiro/steering)
 
 ##  🚀 Exercise 8 - Create a new Spec for AWS enviroment deployment 
 
