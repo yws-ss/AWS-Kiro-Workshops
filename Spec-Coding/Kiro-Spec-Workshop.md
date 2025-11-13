@@ -168,12 +168,15 @@ you can easily add MCP server via Kiro public [documentation](https://awslabs.gi
 
 ## 🚀 Exercise 5 - Create your own Steering rule 
 
-### 5.1 Add your Development standards into development-standards.md
+### 5.1 Add your Development standards into 
 
-you can get more best practices from [here](https://github.com/awsdataarchitect/kiro-best-practices/blob/main/.kiro/steering/development-standards.md)
 
 <img width="908" height="669" alt="image" src="https://github.com/user-attachments/assets/3988dbdf-0be4-4e72-816b-4cbb5dcec145" />
 
+
+#### You can find more best practices from [here](https://github.com/awsdataarchitect/kiro-best-practices/tree/main/.kiro/steering)
+
+Create development-standards.md in steering and add following contexts 
 
 
 ```
