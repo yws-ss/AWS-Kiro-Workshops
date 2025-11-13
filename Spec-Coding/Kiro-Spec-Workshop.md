@@ -18,7 +18,7 @@ This is a fully hands-on workshop. Through a series of exercises, you will desig
 **Login to Kiro**
 
 
-<img width="715" height="807" alt="image" src="https://github.com/user-attachments/assets/07ad740d-98eb-4c7d-97cb-7d79cf11f1ad" />
+<img width="351" height="169" alt="image" src="https://github.com/user-attachments/assets/07ad740d-98eb-4c7d-97cb-7d79cf11f1ad" />
 
 **Logout Kiro** 
 
