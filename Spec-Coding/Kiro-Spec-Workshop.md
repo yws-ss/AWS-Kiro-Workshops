@@ -172,7 +172,9 @@ you can easily add MCP server via Kiro public [documentation](https://awslabs.gi
 
 you can get more best practices from [here](https://github.com/awsdataarchitect/kiro-best-practices/blob/main/.kiro/steering/development-standards.md)
 
-<img width="531" height="137" alt="image" src="https://github.com/user-attachments/assets/3988dbdf-0be4-4e72-816b-4cbb5dcec145" />
+<img width="908" height="669" alt="image" src="https://github.com/user-attachments/assets/3988dbdf-0be4-4e72-816b-4cbb5dcec145" />
+
+
 
 ```
 ---
