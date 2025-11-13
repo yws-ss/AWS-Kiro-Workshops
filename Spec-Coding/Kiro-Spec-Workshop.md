@@ -8,9 +8,6 @@ Kiro's Spec feature allows you to formalize the design and implementation proces
 
 This is a fully hands-on workshop. Through a series of exercises, you will design, develop, and deploy the same webshooting game as the vibe coding workshop, but using a more structured, specification-driven approach. By the end, you'll have a fully functional chatbot with text, image, and voice capabilities, secured with user authentication.
 
-### Setup
-Create a folder named `MyShootingGame` and open it in Kiro. Instead of starting with vibe coding, we'll create a comprehensive specification first.
-
 ### 📋 Prerequisites
 
 - Installed and running Kiro IDE ( https://kiro.dev/downloads )
@@ -30,19 +27,16 @@ Create a folder named `MyShootingGame` and open it in Kiro. Instead of starting 
 <img width="351" height="169" alt="Screenshot 2025-09-03 at 9 04 27 AM" src="https://github.com/user-attachments/assets/a004b61d-efcf-4159-bd1f-3d578db137e4" />
 
 
-
-
-
 ### Setup 1: Create Project Folder
 
-- On your computer, create a folder named `MyShootingGame`
+- On your computer, create a folder named `Kiro_workshop`
 - This will become the project workspace for your shooting game application
 
 ### Setup 2: Open Project in Kiro
 
 - Launch Kiro IDE
 - Click the "Open a project" button
-- Select the `MyShootingGame` folder you just created
+- Select the `Kiro_workshop` folder you just created
 - Kiro will initialize the project workspace
 
 <img width="472" height="360" alt="image" src="https://github.com/user-attachments/assets/98371ca9-9c91-48ab-a978-b7ed09e6080c" />
@@ -58,11 +52,16 @@ Create a folder named `MyShootingGame` and open it in Kiro. Instead of starting 
 
 <img width="472" height="360" alt="image" src="https://github.com/user-attachments/assets/7a6f1648-f717-4e44-a29a-189d096a70d3" />
 
-##  🚀 Exercise 1 - Use Vibe Coding to create a simple Web base shooting game  
+##  🚀 Exercise 1 - Use Vibe Coding to create a simple Web base shooting game OR a e-commerce website 
+
+```
+Please help me to build a web-based shooting game use keyboard control, including a quick instruction page
 
 ```
 
- Please help me to build a Halloween themed web-based shooting game
+
+```
+ Please help me to build a simple e-commerce website with three web pages, including Home page, Product page and Shopping Cart page
 
 ```
 
