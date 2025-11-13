@@ -236,21 +236,49 @@ inclusion: always
 
 ```
 
-<img width="544" height="443" alt="Screenshot 2025-10-27 at 2 41 49 PM" src="https://github.com/user-attachments/assets/45dd8ac1-5edd-4c9e-93b5-0e55df1fa662" />
 
 
-##  🚀 Exercise 5 - Use Specs coding for more comprehensive implementation 
+##  🚀 Exercise 6 - Use Specs coding for more comprehensive implementation 
 
 
+Web base shooting game
 ```
-Today is Halloween !!! let's build something relate to Halloween
-
 Create a more comprehensive modern web-based shooting application with following high-level requirements:
 
-1) A clear introduction page about how to play the game
-2) A healthy bar or status of enemies for user to understand how many time left to take it down 
-3) Allow user to select different character, please refer to 1) Annabelle  2) joker 3) Jason Voorhees.
-4) Implement a power-up system , add some random items temporarily power up the character. Such as shooting more fast, or shooting more wide, please create 6 different items, the more special the better, also include explanation of the power up items
+1) A healthy bar or status of enemies for user to understand how many time left to take it down 
+2) Allow user to select different character, please refer to 1) Annabelle  2) joker 3) Jason Voorhees.
+3) Implement a power-up system , add some random items temporarily power up the character. Such as shooting more fast, or shooting more wide, please create 6 different items, the more special the better, also include explanation of the power up items
+
+```
+
+
+( Optional )
+```
+The web application should be based on 3-tier architecture, including 
+- React + Canvas / WebGL based in prestntation tier ( Client ) for inputing handling and rendering
+- Node.js + Express/ Socket.io based backend with application logics like Game logic , state management etc
+- PostgreSQL database for relations data  to store products and shopping cart items
+- Redis for session data and real-time leadersboards 
+
+```
+
+E-commerce website 
+
+```
+Create a more comprehensive modern E-commerce website  with following high-level requirements:
+
+1) Home page with product list of 20 sample products (use emoji to simulate product pictures)
+2) Product page with product description, price, quantity, add-to-cart button, and sample user reviews
+3) Shopping Cart page with product to be purchased list, total cost, and action buttons such as quantity update and item delete
+```
+
+
+(Optional)
+```
+The web application should be based on 3-tier architecture, including 
+- React based frontend for rendering UI
+- Node.js based backend with application logics like add and remove items in shopping cart
+- SQL based database to store products and shopping cart items
 
 ```
 
@@ -346,7 +374,10 @@ Agent Hooks are powerful automation tools that streamline your development workf
 We want agent hooks to help us monitoring the CDK resource files change, and keep generating the AWS service diagram by using AWS Diagram MCP Server.
 
 ```
-Analyze the modified CDK files and generate or update AWS service architecture diagrams using the PPython diagrams package DSL. Parse the CDK code to identify AWS services, their relationships, and data flow. If the previous diagram not exist, create a visual representation showing the infrastructure components, connections, and dependencies. Include proper grouping for VPCs, subnets, and logical service boundaries. Otherwise, delete the previous diagram before create new one. Output the Python diagrams code that can be executed to generate the architecture diagram.
+1) Analyze the modified CDK files and generate or update AWS service architecture diagrams using the PPython diagrams package DSL.
+2) Parse the CDK code to identify AWS services, their relationships, and data flow. 
+3) If the previous diagram not exist, create a visual representation showing the infrastructure components, connections, and dependencies. Include proper grouping for VPCs, subnets, and logical service boundaries. 
+4) delete the previous diagram before create new one. Output the Python diagrams code that can be executed to generate the architecture diagram.
 ```
 
 After the hook create complete and CDK resource files have change, you should see the similiar diagram as following example:
