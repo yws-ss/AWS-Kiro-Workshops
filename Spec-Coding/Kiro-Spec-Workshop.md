@@ -76,11 +76,11 @@ Start the development server
 
 Steering gives Kiro persistent knowledge about your project through markdown files in .kiro/steering/. Instead of explaining your conventions in every chat, steering files ensure Kiro consistently follows your established patterns, libraries, and standards.
 
-#### 2.1 Click Generate Steering Docs
+#### 3.1 Click Generate Steering Docs
 
 <img width="966" height="661" alt="image" src="https://github.com/user-attachments/assets/6a4647ee-9a60-4f14-b1f7-f1e837ad0e1a" />
 
-#### 2.2 Review the outputs markdown file from Agent Steering to make update if need
+#### 3.2 Review the outputs markdown file from Agent Steering to make update if need
 
 - Product Overview (product.md): Defines your product's purpose, target users, and business objectives
 
@@ -104,12 +104,14 @@ $ uv self version
 > If you didn't install it yet, please check [Astral](https://docs.astral.sh/uv/getting-started/installation) to install uv command.
 
 
-#### 3.1 Click Enable / add more MCP server ( https://kiro.dev/docs/mcp/servers/ )
+#### 4.1 Click Enable / add more MCP server ( https://kiro.dev/docs/mcp/servers/ )
 
 <img width="368" height="268" alt="image" src="https://github.com/user-attachments/assets/0906b563-d0bf-4102-a0f8-332c7d277f97" />
 
-you can easily add MCP server via Kiro public [documentation]([[https://awslabs.github.io/mcp/]  or use the following configuration
+you can easily add MCP server via Kiro public [documentation](https://awslabs.github.io/mcp/)  or use the following configuration
 
+> :warning:
+> please make sure you have Context7 account and use your own  API-key with your own  https://context7.com/
 ```
 {
   "mcpServers": {
@@ -229,7 +231,8 @@ inclusion: always
 <img width="544" height="443" alt="Screenshot 2025-10-27 at 2 41 49 PM" src="https://github.com/user-attachments/assets/45dd8ac1-5edd-4c9e-93b5-0e55df1fa662" />
 
 
-##  🚀 Exercise 4 - Use Specs coding for more comprehensive implementation 
+##  🚀 Exercise 5 - Use Specs coding for more comprehensive implementation 
+
 
 ```
 Today is Halloween !!! let's build something relate to Halloween
