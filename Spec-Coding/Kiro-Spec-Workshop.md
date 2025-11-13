@@ -104,7 +104,7 @@ $ uv self version
 > If you didn't install it yet, please check [Astral](https://docs.astral.sh/uv/getting-started/installation) to install uv command.
 
 
-#### 4.1 Click Enable / add more MCP server ( https://kiro.dev/docs/mcp/servers/ )
+### 4.1 Click Enable / add more MCP server 
 
 <img width="368" height="268" alt="image" src="https://github.com/user-attachments/assets/0906b563-d0bf-4102-a0f8-332c7d277f97" />
 
