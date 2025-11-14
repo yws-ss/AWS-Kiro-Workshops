@@ -124,15 +124,12 @@ you can easily add MCP server via Kiro public [documentation](https://kiro.dev/d
       ],
       "disabled": false
     },
-    "Context7": {
+    "context7": {
       "command": "npx",
       "args": [
         "-y",
-        "@upstash/context7-mcp",
-        "--api-key",
-        "ctx7sk-56e70384-f5df-xxxx-xxxx-xxxxxxxx" 
+        "@upstash/context7-mcp"
       ],
-      "env": {},
       "disabled": false,
       "autoApprove": []
     },
