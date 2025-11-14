@@ -71,7 +71,7 @@ you can easily add MCP server via Kiro public [documentation](https://kiro.dev/d
 
 <img width="368" height="268" alt="image" src="https://github.com/user-attachments/assets/0906b563-d0bf-4102-a0f8-332c7d277f97" />
 
-:warning: please make sure you have Context7 account and use your own  API-key with your own  https://context7.com/
+<!--- :warning: please make sure you have Context7 account and use your own  API-key with your own  https://context7.com/ --->
 
 
 ```
