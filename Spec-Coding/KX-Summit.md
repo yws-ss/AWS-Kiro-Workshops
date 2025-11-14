@@ -27,12 +27,12 @@ This is a fully hands-on workshop. Through a series of exercises, you will desig
 <img width="351" height="169" alt="Screenshot 2025-09-03 at 9 04 27 AM" src="https://github.com/user-attachments/assets/a004b61d-efcf-4159-bd1f-3d578db137e4" />
 
 
-### Setup 1: Create Project Folder
+### Create Project Folder
 
 - On your computer, create a folder named `Kiro_workshop`
 - This will become the project workspace for your shooting game application
 
-### Setup 2: Open Project in Kiro
+### Open Project in Kiro
 
 - Launch Kiro IDE
 - Click the "Open a project" button
@@ -41,7 +41,7 @@ This is a fully hands-on workshop. Through a series of exercises, you will desig
 
 <img width="472" height="360" alt="image" src="https://github.com/user-attachments/assets/98371ca9-9c91-48ab-a978-b7ed09e6080c" />
 
-### Setup 3: Access Let's Build Feature
+### Access Let's Build Feature
 
 - In Kiro, navigate to the "Let's build" page
 - You will see two available options:
@@ -52,46 +52,7 @@ This is a fully hands-on workshop. Through a series of exercises, you will desig
 
 <img width="472" height="360" alt="image" src="https://github.com/user-attachments/assets/7a6f1648-f717-4e44-a29a-189d096a70d3" />
 
-##  🚀 Exercise 1 - Use Vibe Coding to create a Web base shooting game OR a e-commerce website 
-
-Web base shooting game
-```
-Please help me to build a web-based shooting game use keyboard control, including a quick instruction page
-
-```
-
-E-commerce website 
-```
- Please help me to build a simple e-commerce website with three web pages, including Home page, Product page and Shopping Cart page
-
-```
-##  🚀 Exercise 2 - Start a dev server and try it out 
-
-```
-Start the development server
-```
-
-
-##  🚀 Exercise 3 - Generate Steering document in Kiro 
-
-Steering gives Kiro persistent knowledge about your project through markdown files in .kiro/steering/. Instead of explaining your conventions in every chat, steering files ensure Kiro consistently follows your established patterns, libraries, and standards.
-
-#### 3.1 Click Generate Steering Docs
-
-<img width="966" height="661" alt="image" src="https://github.com/user-attachments/assets/6a4647ee-9a60-4f14-b1f7-f1e837ad0e1a" />
-
-#### 3.2 Review the outputs markdown file from Agent Steering to make update if need
-
-- Product Overview (product.md): Defines your product's purpose, target users, and business objectives
-
-- Technology Stack (tech.md): Documents frameworks, libraries, and technical constraints
-
-- Project Structure (structure.md): Outlines file organization, naming conventions, and architectural decisions
-
-<img width="908" height="669" alt="image" src="https://github.com/user-attachments/assets/1ab7adb6-1f59-4a2d-ba03-fef8ea563160" />
-
-
-##  🚀 Exercise 4 - Enable / Add MCP server in Kiro 
+##  🚀 Exercise 1 - Enable / Add MCP server in Kiro 
 
 Model Context Protocol (MCP) extends Kiro's capabilities by connecting to specialized servers that provide additional tools and context. This guide helps you set up, configure, and use MCP servers with Kiro.
 
@@ -104,7 +65,7 @@ $ uv self version
 > If you didn't install it yet, please check [Astral](https://docs.astral.sh/uv/getting-started/installation) to install uv command.
 
 
-### 4.1 Click Enable / add more MCP server 
+### 1.1 Click Enable / add more MCP server 
 
 you can easily add MCP server via Kiro public [documentation](https://kiro.dev/docs/mcp/servers/#mcp-server-directory)  or use the following configuration
 
@@ -166,9 +127,9 @@ you can easily add MCP server via Kiro public [documentation](https://kiro.dev/d
 
 ```
 
-## 🚀 Exercise 5 - Create your own Steering rule 
+## 🚀 Exercise 2 - Create your own Steering rule 
 
-### 5.1 Add your Development standards into 
+### 2.1 Add your Development standards into 
 
 
 <img width="908" height="669" alt="image" src="https://github.com/user-attachments/assets/3988dbdf-0be4-4e72-816b-4cbb5dcec145" />
@@ -235,6 +196,46 @@ inclusion: always
 
 ```
 
+##  🚀 Exercise 3 - Use Vibe Coding to create a Web base shooting game OR a e-commerce website 
+
+Web base shooting game
+```
+Please help me to build a web-based shooting game use keyboard control, including a quick instruction page
+
+```
+
+E-commerce website 
+```
+ Please help me to build a simple e-commerce website with three web pages, including Home page, Product page and Shopping Cart page
+
+```
+##  🚀 Exercise 4 - Start a dev server and try it out 
+
+```
+Start the development server
+```
+
+
+##  🚀 Exercise 5 - Generate Steering document in Kiro 
+
+Steering gives Kiro persistent knowledge about your project through markdown files in .kiro/steering/. Instead of explaining your conventions in every chat, steering files ensure Kiro consistently follows your established patterns, libraries, and standards.
+
+#### 5.1 Click Generate Steering Docs
+
+<img width="966" height="661" alt="image" src="https://github.com/user-attachments/assets/6a4647ee-9a60-4f14-b1f7-f1e837ad0e1a" />
+
+#### 5.2 Review the outputs markdown file from Agent Steering to make update if need
+
+- Product Overview (product.md): Defines your product's purpose, target users, and business objectives
+
+- Technology Stack (tech.md): Documents frameworks, libraries, and technical constraints
+
+- Project Structure (structure.md): Outlines file organization, naming conventions, and architectural decisions
+
+<img width="908" height="669" alt="image" src="https://github.com/user-attachments/assets/1ab7adb6-1f59-4a2d-ba03-fef8ea563160" />
+
+
+
 ##  🚀 Exercise 6 - Use Specs coding for more comprehensive implementation 
 
 
@@ -279,27 +280,24 @@ The web application should be based on 3-tier architecture, including
 
 ```
 
-#### 4.1 Review the Requirements ( requirements.md ) provide by Kiro 
+#### 6.1 Review the Requirements ( requirements.md ) provide by Kiro 
 
 <img width="731" height="630" alt="image" src="https://github.com/user-attachments/assets/b024f8a0-5387-44a3-a9d8-b55adbf6362d" />
 
-#### 4.2 Move to Design phase and review design ( design.md )
+#### 6.2 Move to Design phase and review design ( design.md )
 <img width="635" height="434" alt="image" src="https://github.com/user-attachments/assets/87efa607-f6d5-4113-9102-037855d1dc6b" />
 
 
-#### 4.3 Start implementation plan , review the Tasklist ( tasks.md )
+#### 6.3 Start implementation plan , review the Tasklist ( tasks.md )
 <img width="611" height="418" alt="image" src="https://github.com/user-attachments/assets/e2446220-7e17-4e67-a53c-f182cf0f11aa" />
 
 
-#### 4.4 Start Task by click the :zap:
+#### 6.4 Start Task by click the :zap:
 
 <img width="568" height="332" alt="image" src="https://github.com/user-attachments/assets/3a3f912d-fe8d-4e63-b7d1-5ff21de23e4e" />
 
 
-
-
-
-#### 5.2 Modify the mcp.json file to add the MCP server
+### 7 Modify the mcp.json file to add the MCP server
 
 In this workshop, we will add: 
 - **AWS Documentation MCP Server**: This MCP server provides tools to access AWS documentation, search for content, and get recommendations.
@@ -356,17 +354,17 @@ For more AWS provided MCP, please refer this [document](https://awslabs.github.i
 
 ```
 
-##  🚀 Exercise 6 - Add Hooks in Kiro 
+##  🚀 Exercise 8 - Add Hooks in Kiro 
 
 Agent Hooks are powerful automation tools that streamline your development workflow by automatically executing predefined agent actions when specific events occur in your IDE. With hooks, you eliminate the need to manually request routine tasks and ensure consistency across your codebase.
 
-#### 6.1 Click "+" on AGENT HOOKS to add new hooks
+### 8.1 Click "+" on AGENT HOOKS to add new hooks
 
 
 <img width="393" height="731" alt="image" src="https://github.com/user-attachments/assets/22af98c2-f7e8-470c-9cf6-ec695a711f30" />
 
 
-#### 6.2 Describe the hook using natural language
+### 8.2 Describe the hook using natural language
 
 We want agent hooks to help us monitoring the CDK resource files change, and keep generating the AWS service diagram by using AWS Diagram MCP Server.
 
@@ -381,9 +379,8 @@ After the hook create complete and CDK resource files have change, you should se
 
 <img width="1620" height="2106" alt="image" src="https://github.com/user-attachments/assets/0d9e81dc-0ffd-4837-b768-7a852290538c" />
 
-
-
-##  🚀 Exercise 7 - Add a CDK Steering in workspace steering
+<!--
+##  🚀 Exercise 9 - Add a CDK Steering in workspace steering
 
 Create CDK_Best_Practices.md in steering with following contexts 
 
@@ -438,10 +435,11 @@ inclusion: always
 - Use `NodejsFunction` or `PythonFunction` whenever possible
 
 ```
+-->
 
 #### You can find more best practices from [here](https://github.com/awsdataarchitect/kiro-best-practices/tree/main/.kiro/steering)
 
-##  🚀 Exercise 8 - Create a new Spec for AWS enviroment deployment 
+##  🚀 Exercise 9 - Create a new Spec for AWS enviroment deployment 
 
 web-base shooting game 
 
@@ -462,7 +460,7 @@ I have a E-commerce website need to deploy to AWS Cloud. Create a comprehensive 
 4) Since we are in demo, please do not add any new feature for the application.
 ```
 
-## 🚀 Exercise 9 -  Cleanup and Resource Management
+## 🚀 Exercise 10 -  Cleanup and Resource Management
 
 ```
 Create and execute cleanup procedures:
