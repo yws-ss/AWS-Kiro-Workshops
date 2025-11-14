@@ -106,7 +106,7 @@ $ uv self version
 
 ### 4.1 Click Enable / add more MCP server 
 
-you can easily add MCP server via Kiro public [documentation](https://awslabs.github.io/mcp/)  or use the following configuration
+you can easily add MCP server via Kiro public [documentation](https://kiro.dev/docs/mcp/servers/#mcp-server-directory)  or use the following configuration
 
 <img width="368" height="268" alt="image" src="https://github.com/user-attachments/assets/0906b563-d0bf-4102-a0f8-332c7d277f97" />
 
