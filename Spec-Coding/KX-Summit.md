@@ -47,7 +47,7 @@ This is a fully hands-on workshop. Through a series of exercises, you will desig
 - You will see two available options:
   - **Vibe** - Chat first, build later. Explore ideas and iterate as you discover requirements
   - **Spec** - Plan first, build later. Create requirements and design before starting to code
-- Set the model to "Claude Sonnet 4" (or latest available version)
+- Set the model to "Auto" (or any other available model )
 - Ensure Autopilot is enabled
 
 <img width="472" height="360" alt="image" src="https://github.com/user-attachments/assets/7a6f1648-f717-4e44-a29a-189d096a70d3" />
