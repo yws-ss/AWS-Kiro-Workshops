@@ -52,7 +52,22 @@ This is a fully hands-on workshop. Through a series of exercises, you will desig
 
 <img width="472" height="360" alt="image" src="https://github.com/user-attachments/assets/7a6f1648-f717-4e44-a29a-189d096a70d3" />
 
-##  🚀 Exercise 1 - Enable / Add MCP server in Kiro 
+##  🚀 Exercise 1 - Use Vibe Coding to create a Web base shooting game OR a e-commerce website 
+
+Web base shooting game
+```
+Please help me to build a web-based shooting game use keyboard control, including a quick instruction page
+
+```
+
+E-commerce website 
+
+```
+ Please help me to build a simple e-commerce website with three web pages, including Home page, Product page and Shopping Cart page
+
+```
+
+##  🚀 Exercise 2 - Enable / Add MCP server in Kiro 
 
 Model Context Protocol (MCP) extends Kiro's capabilities by connecting to specialized servers that provide additional tools and context. This guide helps you set up, configure, and use MCP servers with Kiro.
 
@@ -65,7 +80,7 @@ $ uv self version
 > If you didn't install it yet, please check [Astral](https://docs.astral.sh/uv/getting-started/installation) to install uv command.
 
 
-### 1.1 Click Enable / add more MCP server 
+### 2.1 Click Enable / add more MCP server 
 
 you can easily add MCP server via Kiro public [documentation](https://kiro.dev/docs/mcp/servers/#mcp-server-directory)  or use the following configuration
 
@@ -127,9 +142,9 @@ you can easily add MCP server via Kiro public [documentation](https://kiro.dev/d
 
 ```
 
-## 🚀 Exercise 2 - Create your own Steering rule 
+## 🚀 Exercise 3 - Create your own Steering rule 
 
-### 2.1 Add your Development standards into 
+### 3.1 Add your Development standards into 
 
 
 <img width="908" height="669" alt="image" src="https://github.com/user-attachments/assets/3988dbdf-0be4-4e72-816b-4cbb5dcec145" />
@@ -196,19 +211,6 @@ inclusion: always
 
 ```
 
-##  🚀 Exercise 3 - Use Vibe Coding to create a Web base shooting game OR a e-commerce website 
-
-Web base shooting game
-```
-Please help me to build a web-based shooting game use keyboard control, including a quick instruction page
-
-```
-
-E-commerce website 
-```
- Please help me to build a simple e-commerce website with three web pages, including Home page, Product page and Shopping Cart page
-
-```
 ##  🚀 Exercise 4 - Start a dev server and try it out 
 
 ```
