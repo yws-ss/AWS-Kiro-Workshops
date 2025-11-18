@@ -220,9 +220,10 @@ Start the development server
 
 Steering gives Kiro persistent knowledge about your project through markdown files in .kiro/steering/. Instead of explaining your conventions in every chat, steering files ensure Kiro consistently follows your established patterns, libraries, and standards.
 
-#### 5.1 Click Generate Steering Docs
+#### 5.1 Click Generate foundation steering files
 
-<img width="966" height="661" alt="image" src="https://github.com/user-attachments/assets/6a4647ee-9a60-4f14-b1f7-f1e837ad0e1a" />
+<img width="735" height="242" alt="Screenshot 2025-11-18 at 8 12 04 AM" src="https://github.com/user-attachments/assets/a676eca5-b4c7-4a6c-90b2-7bea0632489d" />
+
 
 #### 5.2 Review the outputs markdown file from Agent Steering to make update if need
 
