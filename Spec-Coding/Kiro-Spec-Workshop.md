@@ -380,7 +380,6 @@ After the hook create complete and CDK resource files have change, you should se
 
 <img width="1620" height="2106" alt="image" src="https://github.com/user-attachments/assets/0d9e81dc-0ffd-4837-b768-7a852290538c" />
 
-<!--
 ##  🚀 Exercise 9 - Add a CDK Steering in workspace steering
 
 Create CDK_Best_Practices.md in steering with following contexts 
@@ -436,11 +435,10 @@ inclusion: always
 - Use `NodejsFunction` or `PythonFunction` whenever possible
 
 ```
--->
 
 #### You can find more best practices from [here](https://github.com/awsdataarchitect/kiro-best-practices/tree/main/.kiro/steering)
 
-##  🚀 Exercise 9 - Create a new Spec for AWS enviroment deployment 
+##  🚀 Exercise 10 - Create a new Spec for AWS enviroment deployment 
 
 web-base shooting game 
 
@@ -461,7 +459,7 @@ I have a E-commerce website need to deploy to AWS Cloud. Create a comprehensive 
 4) Since we are in demo, please do not add any new feature for the application.
 ```
 
-## 🚀 Exercise 10 -  Cleanup and Resource Management
+## 🚀 Exercise 11 -  Cleanup and Resource Management
 
 ```
 Create and execute cleanup procedures:
